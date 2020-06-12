@@ -1,5 +1,5 @@
 # [Coordinate](http://303.itpwebdev.com/~kelleyng/final_project/homepage.php)
-Coordinate lets you upload your closet and easily see what you have by searching by category and/or color to mix and match to create an outfit each day.
+Coordinate is a web application that lets you upload your closet and easily see what you have by searching by category and/or color to mix and match to create an outfit each day.
 
 ### Built with:
 * Javascript, JQuery, HTML, CSS + Bootstrap
