@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu');
+
+:root {
+  --black: #534D56;
+  --white: #FFFDFB;
+  --yellow: #FFF9CC;
+  --yellow-hover: #FFEA4B;
+  --orange: #F15A24;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #534D56;
+  background: #FFEA4B;
+}
+
+::selection {
+  color: #534D56;
+  background: #FFEA4B; /* Edge cannot read variables */
+}
+
+body {
+	background-color: var(--black);
+	color: var(--white);
+	font-family: 'Gamja Flower', cursive;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+.navbar-black .navbar-toggler {
+	border: 1px solid gray;
+}
+
+.navbar-black .navbar-toggler:focus, .navbar-black .navbar-toggler:active:focus {
+  box-shadow: 0 0 5px var(--white) !important;
+  outline: none !important;
+}
+
+.navbar-black .navbar-brand, .navbar-black a {
+	color: var(--white);
+}
+
+.btn-warning {
+	background-color: var(--yellow);
+	border: none;
+	border-radius: 20px;
+}
+
+.btn-warning:hover {
+	background-color: var(--yellow-hover) !important;
+}
+
+.btn-warning:active, .btn-warning:focus, .btn-warning:active:focus {
+	background-color: var(--yellow) !important;
+	box-shadow: 0 0 8px var(--yellow) !important;
+	outline: none !important;
+}

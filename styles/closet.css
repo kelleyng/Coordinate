@@ -1,0 +1,69 @@
+p {
+	font-family: 'Gaegu', cursive;
+	text-align: center;
+	color: var(--yellow);
+}
+
+#subtitle {
+	color: var(--yellow-hover);
+	margin-bottom: 1.5rem;
+}
+
+.form-group  {
+	margin-bottom: 0;
+}
+
+input {
+	margin: 5px;
+	height: 2rem;
+}
+
+small {
+	text-align: center;
+	font-family: 'Gaegu', cursive;
+}
+
+.invalid-feedback {
+	margin-top: -0.25rem;
+}
+
+#pwd-error {
+	color: #FF6960;
+	display: block;
+	margin-bottom: 1rem;
+}
+
+#pwd-success {
+	color: #B5FF6A;
+	display: block;
+	margin-bottom: 1rem;
+}
+
+button {
+	margin-top: -0.5rem;
+	margin-bottom: 1.5rem;
+	height: 1.7rem;
+}
+
+#delete {
+	color: #FF6960;
+}
+
+.photo-row {
+	background-color: var(--white);
+	margin-right: 1px;
+	margin-left: 1px;
+	margin-bottom: 0.5rem;
+}
+
+.photo-row:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.photo-row img{
+	max-width: 100%;
+	max-height: 100%;
+	object-fit: contain;
+}

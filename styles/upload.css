@@ -1,0 +1,64 @@
+label {
+	font-size: 1.5rem;
+}
+
+#categoryInput {
+	color: var(--black);
+}
+
+select, select option {
+	background-color: var(--yellow) !important;
+	border: none !important;
+	cursor: pointer;
+	max-height: 2rem;
+}
+
+select:focus, select:active, select:active:focus {
+	box-shadow: 0 0 5px var(--white) !important;
+}
+
+.color-col {
+	max-width: 378px;
+}
+
+.color-box {
+	border-radius: 5px;
+	text-align: center;
+	cursor: pointer;
+	min-width: 65px;
+	max-width: 65px;
+}
+
+.color-box:after {
+  content: "";
+  display: block;
+  padding-bottom: 50%;
+}
+
+.color-box:hover {
+	background-color: var(--black) !important;
+}
+
+.color-box:hover p{
+	visibility: visible;
+	opacity: 100%
+}
+
+.color-box p {
+	margin-bottom: 0;
+	margin-top: 50%;
+	visibility: hidden;
+}
+
+.picked {
+	border: solid 1px black;
+	box-shadow: 0 0 10px var(--white);
+}
+
+.title {
+	text-align: center;
+}
+
+.btn-warning {
+	height: 2rem;
+}

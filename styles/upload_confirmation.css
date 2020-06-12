@@ -1,0 +1,19 @@
+#back-btn {
+	margin: auto;
+}
+
+h1 {
+	margin-bottom: 15px;
+}
+
+p {
+	margin-bottom: 50px;
+}
+
+#fail {
+	color: #FF6960;
+}
+
+#success {
+	color: #B5FF6A;
+}

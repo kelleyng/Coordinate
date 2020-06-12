@@ -1,0 +1,4 @@
+[07-May-2020 21:38:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/kelleyng/public_html/final_project/codi.php:62
+Stack trace:
+#0 {main}
+  thrown in /home/kelleyng/public_html/final_project/codi.php on line 62
